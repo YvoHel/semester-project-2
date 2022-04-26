@@ -1,0 +1,109 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+header{
+    background-color:rgba(35, 76, 100, 0.8);
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a{
+    color: azure!important;
+}
+
+footer{
+    background-color:rgba(35, 76, 100) ;
+    color: white;
+    text-align: center;
+}
+
+
+button{
+    background-color: rgb(74, 137, 168, 0.5)!important;
+}
+
+.header{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart{
+    margin:10px 25px 0px 10px;
+    order:3;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.logo{
+    max-height: 60px;
+    order:2;
+    margin: 5px;
+}
+
+.navbar{
+    order:1;
+    font-size: 1.3em;
+    margin: 10px 0 0 10px;
+}
+
+.navbar-nav{
+    margin: 10px 0;
+}
+
+a:hover{
+    color: #F49B32 !important;
+}
+   
+
+
+.active{
+    text-decoration: underline #F49B32 !important;
+}
+
+@media screen and (min-width: 992px){
+
+    
+    .logo{
+        max-height: 100px;
+        order:1;
+        margin: 10px 0 10px 20px;
+    }
+
+    .navbar{
+        order:2;
+        width:100%;
+        margin: 48px 0 0 50px;
+        font-size: 1.5em;
+    }
+
+    .cart{
+        width: 150px;
+        text-align: right;
+        margin:20px 50px 0 0;
+    }
+
+    .nav-item{
+        margin: 0 10px;
+    }
+
+   
+
+}
+
+
+
+
+
+
+   
