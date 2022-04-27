@@ -1,8 +1,76 @@
 main img{
-    width:  290px;
-    height: 290px;
+    width:  250px;
+    height: 250px;
     object-fit: cover;
 }
+
+main{
+    margin: 100px 0 50px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.contain{
+    width: 98%;
+    margin:auto;
+    background-color: rgb(74, 137, 168, 0.2);
+
+}
+
+.container-shoes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.shoe{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+@media screen and (min-width: 992px){
+
+    main{
+        margin-top: 160px;
+    }
+
+    .container-shoes{
+        max-width: 900px;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .container-shoes{
+        padding: 50px 0px;
+        max-width: 1200px;
+
+    }
+
+    main img{
+        width:  250px;
+        height: 250px;
+        
+    }
+
+    .shoe{
+        margin: 20px 12px;
+        padding: 10px;
+        
+    }
+
+}
+
 
 
      
