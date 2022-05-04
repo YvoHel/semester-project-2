@@ -1,14 +1,18 @@
 body{
-    font-family: 'IBM Plex Sans', sans-serif
+    font-family: 'IBM Plex Sans', sans-serif !important ;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      
 }
 
 h1, h2, h3{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 
 header{
-    background-color:rgba(35, 76, 100, 0.8);
+    background-color:rgba(35, 76, 100, 0.9);
     display: flex;
     top: 0;
     position: fixed;
@@ -16,18 +20,23 @@ header{
     justify-content: space-between;
 }
 
-a{
-    color: azure!important;
+main{
+    flex: 1 0 auto;
+}
+
+.nav-link{
+    color: azure !important;
 }
 
 footer{
     background-color:rgba(35, 76, 100) ;
     color: white;
     text-align: center;
+    
 }
 
 
-button{
+.navbar-toggler{
     background-color: rgb(74, 137, 168, 0.5)!important;
 }
 

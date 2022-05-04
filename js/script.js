@@ -35,9 +35,11 @@ async function featured() {
         if(results[i].featured === true){
 
             featuredContainer.innerHTML += `<div class="featured-shoe">
+            <a href="http://127.0.0.1:5500/product.html?id=${results[i].id}">
             <img src="${url+results[i].image.formats.small.url}" alt="${results[i].image.alternativeText}">
             <p class="shoe-name">${results[i].title}</p>
             <p class="price">$ ${results[i].price} </p>
+            </a>
             </div>`;
         }
     }
