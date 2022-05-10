@@ -17,6 +17,17 @@ h1{
     display: none;
 }
 
+.search-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    max-width: 1150px;
+    margin:0 auto 10px auto;
+}
+
+
+
+
 .container-shoes{
     display: flex;
     flex-wrap: wrap;

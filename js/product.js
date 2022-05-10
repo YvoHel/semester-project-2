@@ -20,7 +20,7 @@ async function makeApiCall() {
         <h1>${result.title}</h1>
         <p class="price">$ ${result.price}</p>
         <p class="description">${result.description}</p>
-        <button class="addCart">Add to cart</button>
+        <button class="addCart" onclick="addToCart(${result.id})">Add to cart</button>
         </div>
         `
 
@@ -31,3 +31,7 @@ async function makeApiCall() {
 
 
 makeApiCall();
+
+function addToCart(id){
+console.log(id);
+}
