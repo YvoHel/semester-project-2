@@ -24,8 +24,6 @@ async function heroBanner2() {
 
 heroBanner2();
 
-
-
 async function getShoes() {
     
     const response = await fetch(urlProduct);

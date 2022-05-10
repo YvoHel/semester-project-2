@@ -2,7 +2,9 @@ export function renderShoes(shoesToRender) {
     const shoesContainer = document.querySelector(".container-shoes");
     shoesContainer.innerHTML = "";
 
+    
     shoesToRender.forEach(function (shoes) {
+        console.log (shoes);
         
         shoesContainer.innerHTML += `<div class="shoe">
         <a href="http://127.0.0.1:5500/product.html?id=${shoes.id}">
