@@ -11,6 +11,7 @@ export function renderShoes(shoesToRender) {
         <img src="http://localhost:1337${shoes.image.formats.small.url}" alt="${shoes.image.alternativeText}">
         <p class="shoe-name">${shoes.title}</p>
         <p class="price">$ ${shoes.price} </p>
+        <button class="add-cart" onclick="addToCart(${shoes.id})"  >Add to cart</button>
         </a>
         </div>`;
     
