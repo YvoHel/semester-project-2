@@ -1,4 +1,4 @@
-export function renderShoes(shoesToRender) {
+export function activeShoes(shoesToRender) {
     const shoesContainer = document.querySelector(".container-shoes");
     shoesContainer.innerHTML = "";
 
@@ -7,7 +7,7 @@ export function renderShoes(shoesToRender) {
         console.log (shoes);
         
         shoesContainer.innerHTML += `<div class="shoe">
-        <a href="http://127.0.0.1:5500/product.html?id=${shoes.id}">
+        <a href="edit.html?id=${shoes.id}">
         <img src="http://localhost:1337${shoes.image.formats.small.url}" alt="${shoes.image.alternativeText}">
         <p class="shoe-name">${shoes.title}</p>
         </a>
@@ -16,4 +16,3 @@ export function renderShoes(shoesToRender) {
     
     });
 }
-
