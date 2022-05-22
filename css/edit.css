@@ -1,0 +1,65 @@
+header {
+  height: 50px;
+}
+
+header .menu {
+  margin: 10px 0;
+}
+
+header a {
+  margin: 10px;
+  color: azure;
+  text-decoration: none;
+}
+
+header button {
+  background-color: #F49B32;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 992px) {
+  header a {
+    margin: 30px;
+  }
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main button {
+  width: 100%;
+  border: 1px solid gray;
+  background-color: #F49B32;
+  padding: 5px;
+}
+
+form {
+  margin: 20px auto;
+}
+
+form label {
+  display: block;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px !important;
+}
+
+.delete:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=edit.css.map */

@@ -20,9 +20,8 @@ export default function createMenu() {
     console.log(authLink);
 
     container.innerHTML = `<div class="menu">
-                                <a> Active product</a>
-                                <a> Edit product</a>
-                                <a> Add product</a>
+                                <a href ="admin.html">Home</a>
+                                <a href ="add-product.html"> Add product</a>
                                 ${authLink}
                         </div>`;
 

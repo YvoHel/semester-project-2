@@ -1,118 +1,144 @@
-body{
-    font-family: 'IBM Plex Sans', sans-serif !important ;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
 }
 
-h1, h2, h3{
-    font-family: 'Poppins', sans-serif !important;
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
 }
 
+header {
+  background-color: #234c64;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
-header{
-    background-color:rgba(35, 76, 100, 0.9);
-    display: flex;
-    top: 0;
-    position: fixed;
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+footer {
+  background-color: #234c64;
+  color: white;
+  text-align: center;
+}
+
+.nav-link {
+  color: azure !important;
+}
+
+.navbar-toggler {
+  background-color: #4a89a8 !important;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.cart-container {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cart {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.login {
+  padding: 8px 16px 0 0;
+  color: azure;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.logo {
+  max-height: 60px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin: 5px;
+}
+
+.navbar {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  font-size: 1.3em;
+  margin: 10px 0 0 10px;
+}
+
+.navbar-nav {
+  margin: 10px 0;
+}
+
+a:hover {
+  color: #F49B32 !important;
+}
+
+.active {
+  -webkit-text-decoration: underline #F49B32 !important;
+          text-decoration: underline #F49B32 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    max-height: 100px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 10px 0 10px 20px;
+  }
+  .navbar {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     width: 100%;
-    justify-content: space-between;
-}
-
-main{
-    flex: 1 0 auto;
-}
-
-.nav-link{
-    color: azure !important;
-}
-
-footer{
-    background-color:rgba(35, 76, 100) ;
-    color: white;
-    text-align: center;
-    
-}
-
-
-.navbar-toggler{
-    background-color: rgb(74, 137, 168, 0.5)!important;
-}
-
-.header{ 
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.cart{
-    margin:10px 25px 0px 10px;
-    order:3;
-    text-decoration: none;
+    margin: 48px 0 0 50px;
     font-size: 1.5em;
-    font-weight: 500;
+  }
+  .cart {
+    width: 150px;
+    text-align: right;
+    margin: 20px 10px 0 0;
+  }
+  .login {
+    margin: 20px;
+  }
+  .nav-item {
+    margin: 0 10px;
+  }
 }
-
-.logo{
-    max-height: 60px;
-    order:2;
-    margin: 5px;
-}
-
-.navbar{
-    order:1;
-    font-size: 1.3em;
-    margin: 10px 0 0 10px;
-}
-
-.navbar-nav{
-    margin: 10px 0;
-}
-
-a:hover{
-    color: #F49B32 !important;
-}
-   
-
-
-.active{
-    text-decoration: underline #F49B32 !important;
-}
-
-@media screen and (min-width: 992px){
-
-    
-    .logo{
-        max-height: 100px;
-        order:1;
-        margin: 10px 0 10px 20px;
-    }
-
-    .navbar{
-        order:2;
-        width:100%;
-        margin: 48px 0 0 50px;
-        font-size: 1.5em;
-    }
-
-    .cart{
-        width: 150px;
-        text-align: right;
-        margin:20px 50px 0 0;
-    }
-
-    .nav-item{
-        margin: 0 10px;
-    }
-
-   
-
-}
-
-
-
-
-
-
-   
+/*# sourceMappingURL=style.css.map */

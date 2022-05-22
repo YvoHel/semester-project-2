@@ -1,3 +1,103 @@
-.active{
-    text-decoration: underline;
+header {
+  height: 50px;
 }
+
+header .menu {
+  margin: 10px 0;
+}
+
+header a {
+  margin: 10px;
+  color: azure;
+  text-decoration: none;
+}
+
+header button {
+  background-color: #F49B32;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 992px) {
+  header a {
+    margin: 30px;
+  }
+}
+
+button {
+  background-color: #F49B32;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid grey;
+}
+
+.container-shoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.container-shoes img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-shoes a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.shoe {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shoe:hover {
+  -webkit-box-shadow: rgba(74, 137, 168, 0.24) 0px 5px 15px;
+          box-shadow: rgba(74, 137, 168, 0.24) 0px 5px 15px;
+}
+
+.shoe a {
+  color: black;
+  text-decoration: none;
+}
+
+.shoe-name {
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .container-shoes {
+    max-width: 900px;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-shoes {
+    max-width: 1200px;
+  }
+  .container-shoes img {
+    width: 250px;
+    height: 250px;
+  }
+  .shoe {
+    margin: 20px 12px;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=admin.css.map */

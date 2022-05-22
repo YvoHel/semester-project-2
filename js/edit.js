@@ -35,13 +35,11 @@ const loading = document.querySelector(".loading");
     try {
         const response = await fetch(productUrl);
         const details = await response.json();
-
+        
         title.value = details.title;
         price.value = details.price;
         description.value = details.description;
         idInput.value = details.id;
-        
-        console.log(details);
 
         deleteButton(details.id);
 
@@ -71,8 +69,6 @@ function submitForm(event) {
 
     updateProduct(titleValue, priceValue, descriptionValue, idValue);
 }
-
-
 
 async function updateProduct(title, price, description, id) {
     const url = baseUrl + "products/" + id;

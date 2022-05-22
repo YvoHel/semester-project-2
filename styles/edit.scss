@@ -1,0 +1,37 @@
+@import"./variables";
+@import "./header-admin";
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+    button{
+        width: 100%;
+        border: 1px solid gray;
+        background-color: $primaryOrange;
+        padding: 5px;
+    }
+}
+
+form{
+
+    margin: 20px auto;
+
+    label {
+        display: block;
+    }
+
+    div {
+        margin-bottom: 15px;
+    }
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px !important;
+}
+
+.delete:hover{
+    background-color: red;
+}
+

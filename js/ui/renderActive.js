@@ -6,13 +6,15 @@ export function activeShoes(shoesToRender) {
     shoesToRender.forEach(function (shoes) {
         console.log (shoes);
         
-        shoesContainer.innerHTML += `<div class="shoe">
-        <a href="edit.html?id=${shoes.id}">
+        shoesContainer.innerHTML += `<a href="edit.html?id=${shoes.id}">
+        <div class="shoe">
         <img src="http://localhost:1337${shoes.image.formats.small.url}" alt="${shoes.image.alternativeText}">
         <p class="shoe-name">${shoes.title}</p>
-        </a>
         <p class="price">$ ${shoes.price} </p>
-        </div>`;
+        <button>Edit</button>
+        </div>
+        </a>`
+        ;
     
     });
 }

@@ -1,0 +1,30 @@
+
+header{
+    height: 50px;
+
+    .menu{
+        margin: 10px 0;
+    }
+    
+    a{
+        margin: 10px;
+        color:$primaryWhite ;
+        text-decoration: none;
+    }
+
+    button{
+        background-color:$primaryOrange ;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border:1px solid grey;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    header{
+        a{
+            margin: 30px;
+        }
+    }
+
+}

@@ -4,33 +4,36 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Add Product</title>
-        <link href="css/add.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="css/add-product.css" rel="stylesheet" />
         <link rel="icon" href="data:;base64,=" />
     </head>
     <body>
-        <div class="container">
+        <header>
             <div class="menu-container"></div>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Add Product</h1>
+                <form>
+                    <div class="message-container"></div>
 
-            <h1>Add Product</h1>
-
-            <form>
-                <div class="message-container"></div>
-
-                <div>
-                    <label for="title">Title</label>
-                    <input id="title" />
-                </div>
-                <div>
-                    <label for="price">Price</label>
-                    <input id="price" />
-                </div>
-                <div>
-                    <label for="description">Description</label>
-                    <textarea id="description"></textarea>
-                </div>
-                <button>Add</button>
-            </form>
-        </div>
+                    <div>
+                       <label for="title">Title</label>
+                       <input id="title" />
+                    </div>
+                    <div>
+                       <label for="price">Price</label>
+                       <input id="price" />
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <textarea id="description"></textarea>
+                    </div>
+                    <button>Add</button>
+                 </form>
+            </div>
+        </main>
         <script src="js/add-product.js" type="module"></script>
     </body>
 </html>
