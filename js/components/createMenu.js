@@ -1,5 +1,3 @@
-
-
 import { getUsername } from "../utils/storage.js";
 import logoutButton from "./logoutButton.js";
 

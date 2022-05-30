@@ -4,7 +4,6 @@ export async function heroBanner() {
     const urlHome = "http://localhost:1337/home";
     const url = "http://localhost:1337";
 
-    
     const response = await fetch(urlHome);
     const results = await response.json();
         

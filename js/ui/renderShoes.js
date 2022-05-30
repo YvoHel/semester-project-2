@@ -4,7 +4,6 @@ export function renderShoes(shoesToRender) {
 
     
     shoesToRender.forEach(function (shoes) {
-        console.log (shoes);
         
         shoesContainer.innerHTML += `<div class="shoe">
         <a href="http://127.0.0.1:5500/product.html?id=${shoes.id}">

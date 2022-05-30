@@ -32,7 +32,6 @@ export default function deleteButton(id) {
 
                 location.href = "/";
 
-                console.log(json);
             } catch (error) {
                 console.log(error);
             }

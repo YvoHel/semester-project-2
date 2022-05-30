@@ -19,6 +19,7 @@ async function getShoes() {
     renderShoes(shoes);
     searchShoes(shoes);
 }
+
 getShoes();
 
 

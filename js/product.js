@@ -6,8 +6,6 @@ let cart = document.querySelector(".add-cart");
 
 getShoe()
 
-
-    
 cart.addEventListener("click", function() {
 cartNumbers();
   
