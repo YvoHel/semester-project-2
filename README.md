@@ -3,7 +3,7 @@
 ![Skjermbilde2](https://user-images.githubusercontent.com/79223033/207711845-d87f4d9b-93c2-4ec3-980b-6b70fd23f122.JPG)
 
 
-This is my Semester Project 2 I did in my second year in my Frontend Development education.
+This is my Semester Project 2 I did in my second year of my Frontend Development education.
 
 
 ## Description
